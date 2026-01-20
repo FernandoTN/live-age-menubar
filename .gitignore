@@ -1,0 +1,24 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code
+.claude/
+
+# IDE
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+
+# Screenshots (except for README)
+Screenshot*.png
