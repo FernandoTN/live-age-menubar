@@ -1,6 +1,6 @@
 # Live Age Menu Bar
 
-A macOS menu bar app that displays your live age in real-time with 5 decimal places of precision.
+A macOS menu bar app that displays your live age in real-time with 7 decimal places of precision.
 
 ![Live Age Menu Bar Screenshot](screenshot.png)
 
@@ -8,7 +8,7 @@ A macOS menu bar app that displays your live age in real-time with 5 decimal pla
 
 - **Real-time age display** - Shows your age updating continuously in the menu bar
 - **Detailed breakdown** - View your age in years, months, days, hours, minutes, and seconds
-- **Customizable birthday** - Set your own birthday via the date picker
+- **Customizable birthday** - Set your birthday with year/month dropdowns and calendar picker for quick navigation
 - **Launch at Login** - Option to start automatically when you log in
 - **Lightweight** - Minimal CPU usage with optimized rendering
 
