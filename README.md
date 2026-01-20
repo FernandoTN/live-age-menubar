@@ -16,13 +16,13 @@ A macOS menu bar app that displays your live age in real-time with 5 decimal pla
 
 ### Download
 
-Download the latest release from the [Releases](https://github.com/fernandotn/live-age-menubar/releases) page.
+Download the latest release from the [Releases](https://github.com/FernandoTN/live-age-menubar/releases) page.
 
 ### Build from Source
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fernandotn/live-age-menubar.git
+   git clone https://github.com/FernandoTN/live-age-menubar.git
    ```
 2. Open `MenuBarAgeCounter.xcodeproj` in Xcode
 3. Build and run (Cmd+R)
