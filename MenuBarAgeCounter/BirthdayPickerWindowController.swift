@@ -8,7 +8,7 @@ final class BirthdayPickerWindowController: NSWindowController {
 
     convenience init() {
         let window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 300, height: 150),
+            contentRect: NSRect(x: 0, y: 0, width: 320, height: 300),
             styleMask: [.titled, .closable],
             backing: .buffered,
             defer: false
@@ -30,9 +30,9 @@ final class BirthdayPickerWindowController: NSWindowController {
         label.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(label)
 
-        // Date picker (date only, no time)
+        // Date picker (graphical calendar, date only)
         datePicker = NSDatePicker()
-        datePicker.datePickerStyle = .textFieldAndStepper
+        datePicker.datePickerStyle = .clockAndCalendar
         datePicker.datePickerElements = [.yearMonthDay]
         datePicker.dateValue = BirthdaySettingsManager.shared.birthdayOrDefault
         datePicker.maxDate = Date()

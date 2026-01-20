@@ -27,13 +27,13 @@ class AgeCalculator {
         birthDate = BirthdaySettingsManager.shared.birthdayOrDefault
     }
 
-    /// Returns the current age as a decimal with 5 decimal places
+    /// Returns the current age as a decimal with 6 decimal places
     func getFormattedAge() -> String {
         if !BirthdaySettingsManager.shared.hasBirthdaySet {
-            return "00.00000"
+            return "00.000000"
         }
         let age = calculateAge()
-        return String(format: "%.5f", age)
+        return String(format: "%.6f", age)
     }
 
     /// Returns the current age in years as a decimal

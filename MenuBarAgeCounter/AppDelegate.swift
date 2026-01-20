@@ -44,9 +44,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func setupStatusItem() {
-        // Calculate fixed width for "XX.XXXXX" format to avoid layout recalculations
+        // Calculate fixed width for "XX.XXXXXX" format to avoid layout recalculations
         let font = NSFont.monospacedDigitSystemFont(ofSize: NSFont.systemFontSize, weight: .regular)
-        let sampleText = "00.00000"
+        let sampleText = "00.000000"
         let textSize = (sampleText as NSString).size(withAttributes: [.font: font])
         let fixedWidth = ceil(textSize.width) + 4
 
